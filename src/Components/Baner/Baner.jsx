@@ -1,6 +1,7 @@
 import React from 'react'
 import Comonhed from '../../Comon/Comonhed'
 import Comonbutton from '../../Comon/Comonbutton'
+import Comoncount from '../../Comon/Comoncount'
 
 const Baner = () => {
   return (
@@ -12,7 +13,7 @@ const Baner = () => {
                 <img src="Imeges/benar.png" alt="benarmg" />
             </div>
           <div className="bener_text">
-            <Comonhed Comonhedtext='Normal to oily skin'></Comonhed>
+            <Comonhed Comonhedtext='Normal to oily skin'/>
             <h1 className='w-[540px] font-normal font-serif text-[72px]  text-secend_color my-5'>
             Men’s Sunscreen
             hand & body
@@ -20,7 +21,8 @@ const Baner = () => {
             <p className='w-[526px] text-lg font-sans font-normal text-[#A0A79A]' >
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </p>
-            <Comonbutton></Comonbutton>
+            <Comonbutton/>
+            <Comoncount/>
           
           </div>
 

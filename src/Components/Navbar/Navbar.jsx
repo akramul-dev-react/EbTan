@@ -25,7 +25,7 @@ const Navbar = () => {
             <HiOutlineMenuAlt2 onClick={handleshow} className='text-3xl active:text-brand_color rotate-180'/>
             {
                 show&&
-            <ul className='w-[300px] bg-green-700 flex flex-col rounded-[10px] gap-2 items-center p-5 absolute top-[30px ] right-0'>
+            <ul className='w-[150px] bg-green-700 flex flex-col rounded-[10px] gap-2 items-center p-5 absolute top-[30px ] right-0'>
                 <li><Link to='/' className='text-xl font-semibold text-white font-inter'>About us</Link></li>
                 <li><Link to='/' className='text-xl font-semibold text-white font-inter'>Product</Link></li>
                 <li><Link to='/' className='text-xl font-semibold text-white font-inter'>Contact</Link></li>
