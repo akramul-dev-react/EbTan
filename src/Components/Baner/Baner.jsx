@@ -2,6 +2,11 @@ import React from 'react'
 import Comonhed from '../../Comon/Comonhed'
 import Comonbutton from '../../Comon/Comonbutton'
 import Comoncount from '../../Comon/Comoncount'
+import { IoStar } from "react-icons/io5";
+import { FaBagShopping } from "react-icons/fa6";
+import { FaFaceFrown } from "react-icons/fa6";
+import CountUp from 'react-countup';
+
 
 const Baner = () => {
   return (
@@ -22,7 +27,11 @@ const Baner = () => {
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </p>
             <Comonbutton/>
-            <Comoncount/>
+         <div className='flex mt-[31px] gap-[49px]'>
+            <Comoncount counicon={<IoStar/>}countnumber={4} Comma={','} Plus={6} counText={'Rating'} />
+            <Comoncount counicon={<FaBagShopping/>}countnumber={200}Plus={'+'} counText={'Product solds'} />
+            <Comoncount counicon={<FaFaceFrown/>}countnumber={99}Plus={'+'} counText={'Review'} />
+         </div>
           
           </div>
 

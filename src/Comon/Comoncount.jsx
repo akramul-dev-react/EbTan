@@ -1,17 +1,15 @@
 import React from 'react'
-import { IoStar } from "react-icons/io5";
 import CountUp from 'react-countup';
 
-const Comoncount = () => {
+const Comoncount = ({counicon, countnumber, Comma, Plus, counText}) => {
   return (
     <div className="single_count ">
-      <div className="flex gap-[6px]  count_icon text-3xl text-[#F2994A] mt-[42px] ">
-      <IoStar />
-      <div className="count_number">
-      <CountUp className='text-[32px] font-bold text-secend_color' end={} />
-      <p className='text-[18px] font-normal text-[#A0A79A]'>{Comma} {Plus}</p>
+      <div className=" count_number flex items-center gap-[6px] ">
+        <div className='text-3xl text-[#F2994A]'>{counicon}</div>
+      <CountUp className='text-[32px] font-bold font-sans text-secend_color' end={countnumber} />
+      <p className='text-[32px] font-bold font-sans text-secend_color' >{Comma} {Plus}</p>
       </div>
-      </div>
+      <p className='text-[18px] font-sans font-normal text-[#A0A79A] pl-[34px]'>{counText}</p>
     </div>
   )
 }
