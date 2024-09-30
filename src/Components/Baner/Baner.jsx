@@ -11,7 +11,7 @@ import CountUp from 'react-countup';
 const Baner = () => {
   return (
     <>
-   <section className='benar pt-[97px]'>
+   <section className='benar  pt-[97px]'>
     <div className="container">
         <div className="baner_row flex  items-center gap-[72px]">
             <div className="baner_img mt-[173px]">
