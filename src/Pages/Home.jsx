@@ -6,6 +6,7 @@ import Handwash from '../Components/Handwash/Handwash'
 import Mensday from '../Components/Mensday/Mensday'
 import Menslip from '../Components/Menslip/Menslip'
 import Review from '../Components/Review/Review'
+import Subscribe from '../Components/Subscribe/Subscribe'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
   <Mensday></Mensday>
   <Menslip></Menslip>
   <Review></Review>
+  <Subscribe></Subscribe>
  
   </>
    
