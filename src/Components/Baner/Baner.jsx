@@ -26,7 +26,9 @@ const Baner = () => {
             <p className='w-[526px] text-lg font-sans font-normal text-[#A0A79A]' >
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </p>
+            <div className="benar_button mt-[49px]">
             <Comonbutton/>
+            </div>
          <div className='flex mt-[31px] gap-[49px]'>
             <Comoncount counicon={<IoStar/>}countnumber={4} Comma={','} Plus={6} counText={'Rating'} />
             <Comoncount counicon={<FaBagShopping/>}countnumber={200}Plus={'+'} counText={'Product solds'} />

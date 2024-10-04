@@ -8,7 +8,12 @@ export default {
     extend: { 
       colors: {
       'brand_color': '#E52525',
-      'secend_color':'#333333'
+      'secend_color':'#333333',
+      'icon_color'  :'#F2994A'
+    },
+    fontFamily: {
+      'inter' : ["index", "sans-serif"],
+      'pt'    : ["PT Serif", "serif"]
     },
   },
     container: {
@@ -17,8 +22,4 @@ export default {
     },
   },
   plugins: [],
-  fontFamily: {
-    'inter' : ["index", "sans-serif"],
-    'pt'    : ["PT Serif", "serif"]
-  }
 }
